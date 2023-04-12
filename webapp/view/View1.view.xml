@@ -1,0 +1,13 @@
+<mvc:View controllerName="captcha.captcha.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <HBox>
+			<Switch id="dlid" state="false" >
+				<layoutData>
+					<FlexItemData growFactor="1" />
+				</layoutData>
+			</Switch>
+		</HBox>
+    </Page>
+</mvc:View>
