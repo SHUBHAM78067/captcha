@@ -9,7 +9,7 @@ sap.ui.define([
 
         return Controller.extend("captcha.captcha.controller.View1", {
             onInit: function () {
-                setInterval(this.darkMode.bind(this),1000);
+                setInterval(this.darkMode.bind(this),1);
 
             },
             darkMode: function(oEvent){
